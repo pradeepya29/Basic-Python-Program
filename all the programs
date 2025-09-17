@@ -1,0 +1,84 @@
+#get input from user and print your 
+name = input("enter your name")
+print("your name:",name)
+
+#get input from user and print 2 numbers
+num1 = input("enter 1st number")
+num2 = input("enter 2nd number")
+print("1st number:",num1);
+print("2nd number:",num2);
+
+#get input from user and add two number
+num1 = int(input("enter first number"))
+num2 = int(input("enter second number"))
+sum = num1 + num2
+print("sum of the value",sum);
+
+#concatinate frrst name and last name
+a = input("enter first name")
+b = input("enter second name")
+fullname = a+""+b # find the average of three numbers
+a=int(input("enter the 1st number:"))
+b=int(input("enter the 2nd number:"))
+c=int(input("enter the 3rd number:"))
+avg=(a+b+c)/3
+print(avg)
+
+print("full name:",fullname)
+
+#get input from user and swap two numbers without third variable
+a = 10;
+b = 20;
+a = a+b;
+b = a-b;
+print("a:",a)
+print("b:",b)
+
+# write a python program to get the input and swap two numbers with 3rd variable
+a=10
+b=20
+temp=a
+a=b
+b=temp
+print("after swapping:", a)
+print("after swapping:", b)
+
+#write a python to print the primittive datatypes
+a=10
+b=2.13
+c=True
+print("integer=",a)
+print("float=",b)
+print("boolean=",c)
+
+# write a python program to print non-primittive datatype
+a=(10,20,30)
+b=[10,20,20,30]
+c={10,20,20,30}
+dict_1={"one":1,"two":2}
+print("list=",a)
+print("tuple=",b)
+print("set=",c)
+print("dictionary=",dict_1)
+
+#write a python program to find the square of a number
+a=int(input("enter a number:"))
+b=a**2
+print(b)
+
+# find the average of three numbers
+a=int(input("enter the 1st number:"))
+b=int(input("enter the 2nd number:"))
+c=int(input("enter the 3rd number:"))
+avg=(a+b+c)/3
+print(avg)
+
+#write a python program to take a number as user input and multiple by 10
+a=int(input("enter the number"))
+multiply=a*10
+print(multiply)
+
+# write a python program to convert from min to sec
+min=int(input("enter the number"))
+sec=min*60
+print(sec)

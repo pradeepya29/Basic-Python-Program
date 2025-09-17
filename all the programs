@@ -82,3 +82,11 @@ print(multiply)
 min=int(input("enter the number"))
 sec=min*60
 print(sec)
+
+# write a python program to multiply floating points
+a=float(input("enter"))
+b=float(input("e4nter"))
+num=a*b
+print(num)
+
+
